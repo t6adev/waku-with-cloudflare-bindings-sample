@@ -1,5 +1,5 @@
 {
-  "name": "waku-with-cloudflare",
+  "name": "waku-with-cloudflare-bindings-sample",
   "version": "0.0.0",
   "type": "module",
   "private": true,
