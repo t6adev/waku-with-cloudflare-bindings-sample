@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm run build && wrangler pages dev",
     "build": "waku build --with-cloudflare",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler pages deploy"
   },
   "dependencies": {
     "hono": "^4.2.3",
