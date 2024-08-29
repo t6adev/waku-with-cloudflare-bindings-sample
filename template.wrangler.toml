@@ -1,13 +1,8 @@
 name = "waku-with-cloudflare-sample"
-main = "dist/serve.js"
-compatibility_date = "2023-12-06"
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-04-03"
 compatibility_flags = [ "nodejs_als" ]
-
-account_id = "YOUR_ACCOUNT_ID"
 
 kv_namespaces = [
   { binding = "WAKU_SAMPLE", id = "YOUR_NAMESPACE_ID", preview_id = "YOUR_NAMESPACE_ID or YOUR_NAMESPACE_PREVIEW_ID" },
 ]
-
-[site]
-bucket = "./dist/public"
