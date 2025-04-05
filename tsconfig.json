@@ -4,13 +4,14 @@
     "target": "esnext",
     "downlevelIteration": true,
     "esModuleInterop": true,
-    "module": "nodenext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "types": [
       "react/experimental",
-      "@cloudflare/workers-types"
+      "./worker-configuration.d.ts"
     ],
     "jsx": "react-jsx"
   }
