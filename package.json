@@ -7,6 +7,7 @@
     "build-cf-types": "wrangler types",
     "dev": "waku dev",
     "build": "waku build --with-cloudflare",
+    "wrangler-dev": "pnpm run build && wrangler dev",
     "deploy": "wrangler deploy"
   },
   "dependencies": {
